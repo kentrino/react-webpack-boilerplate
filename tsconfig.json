@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es2017", "dom"],
+    "jsx": "react",
+    "declaration": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"]
+    },
+    "typeRoots" : [
+      "./types",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
